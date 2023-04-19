@@ -1,0 +1,69 @@
+body {
+  font-family: "Linux Libertine"
+  font-style: italic;
+  color: #91612F;
+  font-weight: 100;
+  font-variant-ligatures: normal;
+  letter-spacing: 1px;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 3px;
+  color: #C46E28;
+}
+
+div {
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+
+a {
+  color: #CCA995;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CCA995;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-brands.fa-instagram:before {
+  content: "\f16d";
+}
+
+.fa-brands.fa-square-pinterest:before {
+  content: "\f0d2";
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
